@@ -1,0 +1,8 @@
+# Modules
+node_modules/
+
+# Lock
+package-lock.json
+
+# VS
+.vs

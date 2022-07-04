@@ -1,0 +1,17 @@
+{
+  "name": "2b2tatlastometeorclientwaypoints",
+  "version": "1.0.0",
+  "description": "Create a Meteor Client waypoint file populated with points of interest from 2b2tatlas.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Enchoseon",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "curve-interpolator": "^2.0.8",
+    "node-fetch": "^2.6.7",
+    "objecttonbt": "^1.3.2",
+    "prismarine-nbt": "^2.2.1"
+  }
+}
