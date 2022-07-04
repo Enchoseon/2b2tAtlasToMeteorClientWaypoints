@@ -6,3 +6,6 @@ package-lock.json
 
 # VS
 .vs
+
+# MNT
+*.nbt
