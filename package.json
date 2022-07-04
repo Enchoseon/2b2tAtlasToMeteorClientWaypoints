@@ -4,7 +4,8 @@
   "description": "Create a Meteor Client waypoint file populated with points of interest from 2b2tatlas.com",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Enchoseon",
   "license": "GPL-2.0",
