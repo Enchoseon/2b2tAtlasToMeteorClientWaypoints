@@ -107,10 +107,10 @@ function waypointToOverworld(waypointObj) { // ...'kay near the end of while I w
 function calculateMaxVisibleDistance(distance) {
     const alpha = Math.min(distance / 375000, 1); // Cap alpha at 1
     const interpolator = new CurveInterpolator([ // Spline points for calculating maxVisibleDistance (index 0: distance from 0,0 in Nether; index 1: max visible distance)
-        [0, 6942],
-        [5000, 13420],
-        [25000, 21420],
-        [50000, 42690],
+        [0, 196],
+        [5000, 6969],
+        [25000, 13420],
+        [50000, 42000],
         [375000, 142069]
     ], { tension: 0.21 });
     return parseInt(interpolator.getPointAt(alpha)[1]);
